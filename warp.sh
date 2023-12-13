@@ -84,7 +84,7 @@ WireGuard_Interface='wgcf'
 WireGuard_ConfPath="/etc/wireguard/${WireGuard_Interface}.conf"
 
 WireGuard_Interface_DNS_IPv4='1.1.1.1'
-WireGuard_Interface_DNS_IPv6='2606:4700:4700::1111'
+WireGuard_Interface_DNS_IPv6='2001:4860:4860::8888'
 WireGuard_Interface_DNS_46="${WireGuard_Interface_DNS_IPv4},${WireGuard_Interface_DNS_IPv6}"
 WireGuard_Interface_DNS_64="${WireGuard_Interface_DNS_IPv6},${WireGuard_Interface_DNS_IPv4}"
 WireGuard_Interface_Rule_table='51888'
